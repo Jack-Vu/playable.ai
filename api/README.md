@@ -3,18 +3,31 @@ LOL Imma be real it took me hours to get this to work on my local machine so let
 To run locally you want to create a local environment and have python installed ensuring that python version is between 3.10-3.12 unfortunately it can be lower or higher since the installed packages will conflict and welp you won't be able to use it
 
 Windows:
+create virtual environment:
 python -m venv yourenv
 
-.\yourenv\Scripts\activate
+    activate it:
+    .\yourenv\Scripts\activate
 
-python main.py
+    install required packages:
+    pip install -r requirements.txt
+
+    start backend:
+    python main.py
 
 Linux:
-
+create virtual environment:
 python -m venv yourenv
 
-source venv/bin/activate
+    activate it:
+    source venv/bin/activate
 
-python main.py
+    install required packages:
+    pip install -r requirements.txt
+
+    start backend:
+    python main.py
 
 Mac: Lol I don't know google it
+
+once you have the virtual environment running you can the frontend will work as intended good luck cause you'll need it
