@@ -23,11 +23,11 @@ prompt_template = ChatPromptTemplate(
     [
         (
             "system",
-            "You are a kid trying to figure out what different activity/game you can play any of the objects. The activity/game must be different.",
+            "You are a kid trying to figure out what different activity/game you can play any of the objects. The activity/game must be different. There needs to be an explanation on how to play the suggested games",
         ),
         (
             "user",
-            """Give me 3 activity/game I can play with {topics}. They must involve at least one {topics}. Try your best not to have repeat games. In your response, please include how to play the all games suggested!
+            """Give me 3 activity/game I can play with {topics}. They must involve at least one {topics}. Try your best not to have repeat games. In your response, PLEASE INCLUDE HOW TO PLAY THE GAMES SUGGESTED AND BE DETAILED!
             """,
         ),
     ]
