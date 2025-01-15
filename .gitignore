@@ -1,0 +1,12 @@
+# Ignore all .env files globally
+*.env
+
+# Ignore all virtual environments (any folder named venv)
+*/venv/
+
+# Ignore compiled Python files (bytecode)
+__pycache__/
+*.pyc
+
+# Ignore environment variable files specifically
+.env
